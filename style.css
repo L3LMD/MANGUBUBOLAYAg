@@ -1,0 +1,52 @@
+body {
+    font-family: Bookman, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #fb911f;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+button {
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

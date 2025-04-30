@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant - Commandes</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+            <a href="Accueil.html">Accueil</a>
+            <a href="Apropos.html">À propos</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    
+  </header>
+  <main>
+    <h2>Menu</h2>
+    <div class="menu">
+      <div class="item">
+        <img src="Images/Plat1.jpg" alt="Plat1">
+        <h3>Poulet Grillé</h3>
+        <p>25000 CDF</p>
+        <button onclick="ajouterCommande('Poulet Grillé', 25000)">Commander</button>
+      </div>
+      <div class="item">
+        <img src="Images/Plat2.jpg" alt="Plat 2">
+        <h3>Pâtes Carbonara</h3>
+        <p>15000 CDF</p>
+        <button onclick="ajouterCommande('Pâtes Carbonara', 15000)">Commander</button>
+      </div>
+      <div class="item">
+        <img src="Images/Plat3.jpg" alt="Plat3">
+        <h3>Poulet Grillé</h3>
+        <p>30000 CDF</p>
+        <button onclick="ajouterCommande('Poulet Grillé', 30000)">Commander</button>
+      </div>
+    </div>
+
+    <h2>Votre Commande</h2>
+    <ul id="liste-commandes"></ul>
+    <p>Total : <span id="total">0</span> CDF</p>
+  </main>
+
+  <script src="Java.js"></script>
+</body>
+</html>

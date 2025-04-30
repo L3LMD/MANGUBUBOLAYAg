@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: #fb911f;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: red;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: royalblue;
+    border-bottom: 2px solid royalblue;
+}
+
+main {
+    padding: 20px;
+}
+.menu .item {
+    border: 1px solid darkred;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu .item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1px;
+}
+
+.menu .item p {
+    flex-grow: 10;
+    font-family: Arial;
+    color: red;
+}
+
+
+
+"{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(Images/juresse.jpg);
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #219150;
+}
+
+header{
+  position: center;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+}
+
+header .navpat li a:hover{
+  color: #fb911f;
+  border-bottom: 2px solid #fb911f;
+}
+
+header .navpat li a:hover{
+  color: #fb911f;
+  border-bottom: 2px solid #fb911f;
+}
